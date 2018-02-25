@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/beautybackdrop"
     android:orientation="vertical"
     tools:context="com.example.cathychang.athenahacks.Eyeshadow">
 
@@ -11,8 +12,8 @@
         android:id="@+id/introShadow"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:padding="5dp"
         android:background="@drawable/whiterectangle"
+        android:padding="5dp"
         android:text="@string/what_color_eye_shadow_do_you_own"
         android:textAlignment="center"
         android:textColor="@android:color/black"
@@ -25,7 +26,7 @@
         android:id="@+id/black"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@android:color/black"
+        android:background="@drawable/black"
         android:text="@string/black"
         android:textColor="@android:color/background_light" />
 
@@ -33,41 +34,42 @@
         android:id="@+id/purple"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@drawable/purple2"
         android:text="@string/purple" />
 
     <CheckBox
         android:id="@+id/Blue"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@drawable/blue"
         android:text="@string/blue" />
 
     <CheckBox
         android:id="@+id/Gold"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="?android:attr/colorMultiSelectHighlight"
+        android:background="@drawable/gold"
         android:text="@string/gold" />
 
     <CheckBox
-        android:id="@+id/Red"
+        android:id="@+id/Pink"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@android:color/holo_red_light"
-        android:text="@string/red" />
+        android:background="@drawable/pink"
+        android:text="@string/pink" />
 
     <CheckBox
         android:id="@+id/Yellow"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@android:color/holo_orange_light"
+        android:background="@drawable/yellow"
         android:text="Yellow" />
 
     <CheckBox
         android:id="@+id/White"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:background="@drawable/white"
         android:text="@string/white" />
 
     <Button
