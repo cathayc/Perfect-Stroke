@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context="com.example.cathychang.athenahacks.EyeMakeup">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/introEyeliner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="How do you want your eyeliner styled?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <CheckBox
+        android:id="@+id/nightOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfect for a night out" />
+
+    <CheckBox
+        android:id="@+id/daytimeEyeliner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfect for work" />
+
+    <CheckBox
+        android:id="@+id/winged"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Winged" />
+
+    <CheckBox
+        android:id="@+id/noEyeliner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="None" />
+
+    <TextView
+        android:id="@+id/IntroMascara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you have mascara?" />
+
+    <CheckBox
+        android:id="@+id/mascaraYes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes" />
+
+    <CheckBox
+        android:id="@+id/mascaraNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No" />
+
+    <Button
+        android:id="@+id/nextEyeMakeup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+</android.support.v7.widget.FitWindowsLinearLayout>

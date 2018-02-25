@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -18,15 +18,7 @@
         android:layout_height="wrap_content"
         android:text="Are you ready to begin?"
         tools:layout_editor_absoluteX="24dp"
-<<<<<<< HEAD
+
         tools:layout_editor_absoluteY="78dp" />
 
-    <ImageView
-        android:id="@+id/my_image_view"
-        android:src="@drawable/strokebeauty"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"/>
-=======
-        tools:layout_editor_absoluteY="78dp"/>
->>>>>>> 1164c52c7c8c12b44a73c4c366e018827dedfae2
-</android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.FitWindowsLinearLayout>
