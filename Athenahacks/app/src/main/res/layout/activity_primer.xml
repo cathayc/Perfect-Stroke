@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/beautybackdrop"
     android:orientation="vertical"
     tools:context="com.example.cathychang.athenahacks.Primer">
 
@@ -11,6 +12,7 @@
         android:id="@+id/introPrimer"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:background="@drawable/whiterectangle"
         android:ems="10"
         android:padding="7dp"
         android:text="@string/what_type_of_primer_do_you_have"
@@ -45,5 +47,5 @@
         android:layout_height="65dp"
         android:background="@drawable/rectangle"
         android:text="Next"
-        android:textColor="@android:color/background_light"/>
+        android:textColor="@android:color/background_light" />
 </android.support.v7.widget.FitWindowsLinearLayout>
