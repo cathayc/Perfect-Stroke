@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/countour"
     android:orientation="vertical"
     tools:context="com.example.cathychang.athenahacks.Contour">
 
@@ -39,10 +40,10 @@
         android:id="@+id/introBlush"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:background="@drawable/whiterectangle"
         android:ems="10"
         android:inputType="textPersonName"
         android:padding="5dp"
-        android:background="@drawable/whiterectangle"
         android:text="Do you have blush?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
