@@ -39,146 +39,66 @@ public class Ultimate extends AppCompatActivity {
 
     public Ultimate()
     {
-        this.foundationLiquid = false;
-        this.foundationPowder = false;
-        this.foundationNone = false;
+        foundationLiquid = false;
+        foundationPowder = false;
+        foundationNone = false;
 
-        this.primerFace = false;
-        this.primerEyes = false;
-        this.primerNone = false;
+        primerFace = false;
+        primerEyes = false;
+        primerNone = false;
 
-        this.contourYes = false;
-        this.contourNo = false;
+        contourYes = false;
+        contourNo = false;
 
-        this.blushYes = false;
-        this.blushNo = false;
+        blushYes = false;
+        blushNo = false;
 
-        this.eyelinerDaily = false;
-        this.eyelinerCat = false;
-        this.eyelinerNightOut = false;
-        this.eyelinerNone = false;
+        eyelinerDaily = false;
+        eyelinerCat = false;
+        eyelinerNightOut = false;
+        eyelinerNone = false;
 
-        this.mascaraYes = false;
-        this.mascaraNo = false;
+        mascaraYes = false;
+        mascaraNo = false;
 
-        this.eyebrowsArc = false;
-        this.eyebrowsGel = false;
-        this.eyebrowsPencil = false;
-        this.eyebrowsNone = false;
+        eyebrowsArc = false;
+        eyebrowsGel = false;
+        eyebrowsPencil = false;
+        eyebrowsNone = false;
     }
 
     public void makeVideos() {
-        videos = new Video[6];
-        boolean[] temp0 = {true, false, false, true, false,
+        videos = new Video[10];
+        videos[0] = new Video(true, false, false, true, false,
                 false, false, false, true, false, false, false,
                 false, false, true, false, false, false,
-                false, false} ;
-        videos[0] = new Video( temp0, "https://www.youtube.com/watch?v=-WlqBjKC0C8");
+                false, false, "https://www.youtube.com/watch?v=-WlqBjKC0C8");
 
-        boolean[] temp1 = {true, false, false, true, false,
+        videos[1] = new Video(true, false, false, true, false,
                 false, true, false, true, false, true, false,
                 false, false, true, false, true, true,
-                true, true};
+                true, true, "https://www.youtube.com/watch?v=-WlqBjKC0C8");
 
-        videos[1] = new Video( temp1, "https://www.youtube.com/watch?v=-WlqBjKC0C8");
-
-        boolean[] temp2 = {true, false, false, true, false,
+        videos[2] = new Video(true, false, false, true, false,
                 false, true, false, true, false, true, false,
                 false, false, true, false, false, false,
-                true, false};
-        videos[2] = new Video(temp2, "https://www.youtube.com/watch?v=I_h_ssTeLPw");
+                true, false, "https://www.youtube.com/watch?v=I_h_ssTeLPw");
 
-        boolean[] temp3 = {false, false, false, false, false,
+        videos[2] = new Video(false, false, false, false, false,
                 false, true, false, true, false, false, true,
                 false, false, true, false, false, false,
-                false, false};
+                false, false, "https://www.youtube.com/watch?v=2dcbxPN_OH0");
 
-        videos[3] = new Video( temp3, "https://www.youtube.com/watch?v=2dcbxPN_OH0");
-
-        boolean[] temp4 = {false, true, false, true, false,
+        videos[3] = new Video(false, true, false, true, false,
                 false, true, false, false, false, false, false,
                 true, false, true, false, false, true,
-                true, false};
+                true, false, "https://www.youtube.com/watch?v=4xt-zjxVGNc");
 
-        videos[4] = new Video(temp4, "https://www.youtube.com/watch?v=4xt-zjxVGNc");
-
-        boolean[] temp5 = {true, false, false, true, false,
+        videos[4] = new Video(true, false, false, true, false,
                 false, true, false, true, false, false, false,
                 false, false, false, false, false, false,
-                true, false};
-
-        videos[5] = new Video(temp5, "https://www.youtube.com/watch?v=uKR1_Npz87Q");
+                true, false, "https://www.youtube.com/watch?v=uKR1_Npz87Q");
 
 
         }
-    /*Finds the video in videos that matches with the current unltimate the most and then returns
-        the url for that video*/
-    public String bestVideo()
-    {
-        boolean[] ultimateStats = new boolean [20];
-        ultimateStats[0] = this.foundationPowder;
-        ultimateStats[1] = this.foundationLiquid;
-        ultimateStats[2] = this.foundationNone;
-        ultimateStats[3] = this.primerFace;
-        ultimateStats[4] = this.primerEyes;
-        ultimateStats[5] = this.primerNone;
-        ultimateStats[6] = this.contourYes;
-        ultimateStats[7] = this.contourNo;
-        ultimateStats[8] = this.blushYes;
-        ultimateStats[9] = this.blushNo;
-        ultimateStats[10] = this.eyelinerDaily;
-        ultimateStats[11] = this.eyelinerCat;
-        ultimateStats[12] = this.eyelinerNightOut;
-        ultimateStats[13] = this.eyelinerNone;
-        ultimateStats[14] = mascaraYes;
-        ultimateStats[15] = this.mascaraNo;
-        ultimateStats[16] = this.eyebrowsArc;
-        ultimateStats[17] = this.eyebrowsGel;
-        ultimateStats[18] = this.eyebrowsPencil;
-        ultimateStats[19] = this.eyebrowsNone;
-
-        int maxCompare = 0;
-        int index = 0;
-        for(int i = 0; i < videos.length; i++){
-            int temp=  compare(videos[i].getVideo(), ultimateStats) ;
-            if(temp > maxCompare)
-            {
-                maxCompare = temp;
-                index = i;
-            }
-         }
-
-        return videos[index].getUrl()  ;
     }
-
-    /*
-    Returns the number of matching elements of 2 boolean arrays
-     */
-    public int compare(boolean[] vid, boolean[] stats)
-    {
-        int compared = 0;
-        for (int i = 0; i < vid.length; i++)
-        {
-            if(vid[i] == stats[i])
-            {
-                compared ++;
-            }
-        }
-        return compared;
-    }
-
-    }
-
-    /*
-    CODE FOR VIDEO PLAYING
-
-    btnvideo.setOnClickListener(new OnClickListener() {
-
-public void onClick(View v) {
-
-    startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse(INSERT STRING URL HERE)));
-    Log.i("Video", "Video Playing....");
-
-    }
-});
-     */
