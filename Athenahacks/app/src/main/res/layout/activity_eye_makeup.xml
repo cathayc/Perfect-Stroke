@@ -3,9 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.example.cathychang.athenahacks.EyeMakeup">
+    tools:context="com.example.cathychang.athenahacks.eye_makeup">
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4a3a483a57ccdad97e46bc52253752bc24e437fb
     <TextView
         android:id="@+id/introEyeliner"
         android:layout_width="match_parent"
@@ -64,3 +69,7 @@
         android:text="Next" />
 
 </android.support.v7.widget.FitWindowsLinearLayout>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4a3a483a57ccdad97e46bc52253752bc24e437fb

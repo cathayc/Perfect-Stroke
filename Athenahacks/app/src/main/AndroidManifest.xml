@@ -19,8 +19,78 @@
         <activity android:name=".Foundation" />
         <activity android:name=".Primer" />
         <activity android:name=".Contour" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <activity android:name=".EyeMakeup"></activity>
+=======
+=======
+>>>>>>> 4a3a483a57ccdad97e46bc52253752bc24e437fb
         <activity android:name=".EyeMakeup" />
         <activity android:name=".Eyeshadow"></activity>
+<<<<<<< HEAD
+>>>>>>> 1164c52c7c8c12b44a73c4c366e018827dedfae2
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of 458103e... Merge branch 'master' of https://github.com/cathayc/athena
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
+=======
+>>>>>>> 4a3a483a57ccdad97e46bc52253752bc24e437fb
     </application>
 
 </manifest>
