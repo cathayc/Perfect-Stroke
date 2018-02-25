@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Foundation" />
-        <activity android:name=".Primer"></activity>
+        <activity android:name=".Primer" />
+        <activity android:name=".Contour"></activity>
     </application>
 
 </manifest>

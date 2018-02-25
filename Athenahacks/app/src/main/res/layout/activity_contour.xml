@@ -2,40 +2,50 @@
 <android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.example.cathychang.athenahacks.Primer">
+    tools:context="com.example.cathychang.athenahacks.Contour">
 
     <EditText
-        android:id="@+id/introPrimer"
+        android:id="@+id/introContour"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="What type of primer do you have?" />
+        android:text="Do you have contour?"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="6dp" />
 
     <CheckBox
-        android:id="@+id/face"
+        android:id="@+id/yes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Face Primer" />
+        android:text="Yes" />
 
     <CheckBox
-        android:id="@+id/eyeshadow"
+        android:id="@+id/no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Eyeshadow Primer" />
+        android:text="No" />
+
+    <EditText
+        android:id="@+id/introBlush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Do you have blush?" />
 
     <CheckBox
-        android:id="@+id/none"
+        android:id="@+id/checkBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="None" />
+        android:text="CheckBox" />
 
-    <Button
-        android:id="@+id/nextContour"
+    <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Next" />
+        android:text="CheckBox" />
+
 </android.support.v7.widget.FitWindowsLinearLayout>
