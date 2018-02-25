@@ -4,22 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.cathychang.athenahacks.MainActivity">
+
 
 
     <ImageView
         android:id="@+id/my_image_view"
-        android:src="@drawable/strokebeauty"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"/>
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:src="@drawable/strokebeauty" />
 
     <Button
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Are you ready to begin?"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Lets go!"
         tools:layout_editor_absoluteX="24dp"
-
         tools:layout_editor_absoluteY="78dp" />
 
 </android.support.v7.widget.FitWindowsLinearLayout>
