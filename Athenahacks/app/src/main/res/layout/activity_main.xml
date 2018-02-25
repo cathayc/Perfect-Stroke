@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
+    android:background="@drawable/frontpagebeauty"
     android:orientation="vertical"
     tools:context="com.example.cathychang.athenahacks.MainActivity">
 
 
-
-    <ImageView
-        android:id="@+id/my_image_view"
-        android:layout_width="match_parent"
-        android:layout_height="433dp"
-        android:src="@drawable/strokebeauty" />
-
     <Button
-        android:id="@+id/start"
+        android:id="@+id/btnStart"
         style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
+        android:layout_width="173dp"
+        android:layout_height="94dp"
         android:layout_gravity="center_vertical|center_horizontal"
         android:autoSizeMaxTextSize="@android:dimen/thumbnail_height"
         android:background="@drawable/rectangle"
@@ -33,7 +26,7 @@
         android:transformPivotX="?android:attr/scrollbarSize"
         android:verticalScrollbarPosition="left"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="78dp" />
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="353dp" />
 
-</android.support.v7.widget.FitWindowsLinearLayout>
+</android.support.constraint.ConstraintLayout>
