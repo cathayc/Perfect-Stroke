@@ -42,18 +42,8 @@
     <Button
         android:id="@+id/nextPrimer"
         android:layout_width="match_parent"
-<<<<<<< HEAD
-        android:layout_height="50dp"
+        android:layout_height="65dp"
         android:background="@drawable/rectangle"
         android:text="Next"
-        android:textColor="@android:color/background_light" />
-        android:layout_height="wrap_content"
-        android:text="Next" />
+        android:textColor="@android:color/background_light"/>
 </android.support.v7.widget.FitWindowsLinearLayout>
-=======
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-        android:text="Next"
-        android:textColor="@android:color/background_light" />
-</android.support.v7.widget.FitWindowsLinearLayout>
->>>>>>> 044225102ccf05387b89488cca91c5fedb487341
