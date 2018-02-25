@@ -19,14 +19,10 @@
         <activity android:name=".Foundation" />
         <activity android:name=".Primer" />
         <activity android:name=".Contour" />
-<<<<<<< HEAD
 
         <activity android:name=".EyeMakeup"></activity>
-
-=======
         <activity android:name=".EyeMakeup"></activity>
         <activity android:name=".Eyeshadow"></activity>
->>>>>>> cd650a8a9f1d16abf354583527c863d1c66b59b1
     </application>
 
 </manifest>

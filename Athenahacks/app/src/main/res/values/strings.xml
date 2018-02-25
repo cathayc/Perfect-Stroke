@@ -8,4 +8,7 @@
     <string name="red">Red</string>
     <string name="yellow">Yellow</string>
     <string name="white">White</string>
+    <string name="none">None</string>
+    <string name="what_type_of_primer_do_you_have">What type of primer do you have?</string>
+    <string name="start">Start</string>
 </resources>

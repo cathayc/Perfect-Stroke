@@ -10,53 +10,65 @@
     <TextView
         android:id="@+id/introShadow"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:background="@drawable/whiterectangle"
         android:text="@string/what_color_eye_shadow_do_you_own"
-        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorLink="@color/colorPrimary"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="181dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <CheckBox
         android:id="@+id/black"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/black" />
+        android:layout_height="50dp"
+        android:background="@android:color/black"
+        android:text="@string/black"
+        android:textColor="@android:color/background_light" />
 
     <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/purple"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
         android:text="@string/purple" />
 
     <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/Blue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_dark"
         android:text="@string/blue" />
 
     <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/Gold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?android:attr/colorMultiSelectHighlight"
         android:text="@string/gold" />
 
     <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/Red"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_red_light"
         android:text="@string/red" />
+
+    <CheckBox
+        android:id="@+id/Yellow"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Yellow" />
 
     <CheckBox
         android:id="@+id/White"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="@string/white" />
-
-    <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Yellow"
-        android:text="@string/yellow" />
 
 
 </android.support.v7.widget.FitWindowsLinearLayout>

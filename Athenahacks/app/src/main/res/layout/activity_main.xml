@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/background_light"
     android:orientation="vertical"
     tools:context="com.example.cathychang.athenahacks.MainActivity">
 
@@ -12,15 +13,26 @@
     <ImageView
         android:id="@+id/my_image_view"
         android:layout_width="match_parent"
-        android:layout_height="400sp"
+        android:layout_height="433dp"
         android:src="@drawable/strokebeauty" />
 
     <Button
         android:id="@+id/start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:text="Lets go!"
+        android:autoSizeMaxTextSize="@android:dimen/thumbnail_height"
+        android:background="@drawable/rectangle"
+        android:drawablePadding="?attr/listPreferredItemPaddingLeft"
+        android:ellipsize="middle"
+        android:text="@string/start"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title.Inverse"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:transformPivotX="?android:attr/scrollbarSize"
+        android:verticalScrollbarPosition="left"
+        android:visibility="visible"
         tools:layout_editor_absoluteX="24dp"
         tools:layout_editor_absoluteY="78dp" />
 

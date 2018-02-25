@@ -3,59 +3,71 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.cathychang.athenahacks.Contour">
 
     <TextView
         android:id="@+id/introContour"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/whiterectangle"
         android:ems="10"
         android:inputType="textPersonName"
+        android:padding="5dp"
         android:text="Do you have contour?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="6dp"
-        />
+        tools:layout_editor_absoluteY="6dp" />
 
     <CheckBox
         android:id="@+id/contourYes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Yes" />
+        android:layout_height="50dp"
+        android:text="Yes"
+        android:textColorLink="@color/colorAccent" />
 
     <CheckBox
         android:id="@+id/contourNo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="No" />
 
     <TextView
         android:id="@+id/introBlush"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Do you have blush?" />
+        android:padding="5dp"
+        android:background="@drawable/whiterectangle"
+        android:text="Do you have blush?"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
 
     <CheckBox
         android:id="@+id/blushYes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Yes" />
 
     <CheckBox
         android:id="@+id/blushNo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="No" />
 
     <Button
         android:id="@+id/nextContour"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Next" />
-
+        android:layout_height="65dp"
+        android:background="@drawable/rectangle"
+        android:padding="10dp"
+        android:text="Next"
+        android:textColor="@android:color/background_light" />
 
 
 </android.support.v7.widget.FitWindowsLinearLayout>

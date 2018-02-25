@@ -3,44 +3,55 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.cathychang.athenahacks.Foundation">
 
     <TextView
         android:id="@+id/introFoundation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:padding="5dp"
         android:text="What type of foundation do you have?"
-        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="16dp"
+        android:background="@drawable/whiterectangle"
         tools:layout_editor_absoluteY="16dp" />
-
-    <CheckBox
-        android:id="@+id/powder"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Powder"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="84dp" />
-
-    <CheckBox
-        android:id="@+id/liquid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Liquid" />
 
     <CheckBox
         android:id="@+id/none"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="None" />
+
+    <CheckBox
+        android:id="@+id/liquid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:text="Liquid" />
+
+    <CheckBox
+        android:id="@+id/powder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:text="Powder"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="84dp" />
 
     <Button
         android:id="@+id/nextFoundation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Next" />
+        android:layout_height="65dp"
+        android:background="@drawable/rectangle"
+        android:text="Next"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light" />
+
 </android.support.v7.widget.FitWindowsLinearLayout>

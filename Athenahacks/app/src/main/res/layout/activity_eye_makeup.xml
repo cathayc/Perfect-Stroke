@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/introEyeliner"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_margin="1dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:backgroundTintMode="screen"
@@ -23,31 +23,32 @@
         android:textColorLink="@android:color/black"
         android:textIsSelectable="false"
         android:textStyle="bold"
+        android:background="@drawable/whiterectangle"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="29dp" />
 
     <CheckBox
         android:id="@+id/nightOut"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Perfect for a night out" />
 
     <CheckBox
         android:id="@+id/daytimeEyeliner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Perfect for work" />
 
     <CheckBox
         android:id="@+id/winged"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Winged" />
 
     <CheckBox
         android:id="@+id/noEyeliner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="None" />
 
     <TextView
@@ -67,26 +68,27 @@
         android:textStyle="normal|bold"
         android:typeface="normal"
         android:verticalScrollbarPosition="left"
+        android:background="@drawable/whiterectangle"
         android:visibility="visible" />
 
     <CheckBox
         android:id="@+id/mascaraYes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Yes" />
 
     <CheckBox
         android:id="@+id/mascaraNo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="No" />
 
     <Button
         android:id="@+id/nextEyeMakeup"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
+        android:layout_height="65dp"
+        android:background="@drawable/rectangle"
         android:duplicateParentState="false"
         android:foregroundGravity="top"
         android:text="Next"
@@ -94,7 +96,4 @@
         android:visibility="visible" />
 
 </android.support.v7.widget.FitWindowsLinearLayout>
-<<<<<<< HEAD
 
-=======
->>>>>>> cd650a8a9f1d16abf354583527c863d1c66b59b1
