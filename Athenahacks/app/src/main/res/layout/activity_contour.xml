@@ -11,7 +11,7 @@
         android:id="@+id/introContour"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="20"
+        android:ems="10"
         android:inputType="textPersonName"
         android:text="Do you have contour?"
         tools:layout_editor_absoluteX="0dp"
