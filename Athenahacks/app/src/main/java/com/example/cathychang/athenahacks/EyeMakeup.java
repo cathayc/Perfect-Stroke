@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
-public class EyeMakeup extends AppCompatActivity {
+public class EyeMakeup extends Ultimate {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

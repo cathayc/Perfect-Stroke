@@ -167,7 +167,7 @@ public class Ultimate extends AppCompatActivity {
         return compared;
     }
 
-    }
+}
 
     /*
     CODE FOR VIDEO PLAYING
