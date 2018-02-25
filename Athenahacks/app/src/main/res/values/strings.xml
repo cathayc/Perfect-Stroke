@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">BeautyStroke</string>
+    <string name="what_color_eye_shadow_do_you_own">What color eye shadow do you own?</string>
+    <string name="black">Black</string>
+    <string name="purple">Purple</string>
+    <string name="blue">Blue</string>
+    <string name="gold">Gold</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="white">White</string>
 </resources>
