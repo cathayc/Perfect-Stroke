@@ -18,23 +18,26 @@
         android:drawableEnd="@android:color/holo_purple"
         android:padding="5dp"
         android:text="How do you want your eyeliner styled?"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColorLink="@android:color/black"
         android:textIsSelectable="false"
         android:textStyle="bold"
-        android:background="@drawable/whiterectangle" />
+        android:background="@drawable/whiterectangle"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="29dp" />
 
     <CheckBox
         android:id="@+id/nightOut"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/perfect_for_a_night_out" />
+        android:text="Perfect for a night out" />
 
     <CheckBox
         android:id="@+id/daytimeEyeliner"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/perfect_for_work" />
+        android:text="Perfect for work" />
 
     <CheckBox
         android:id="@+id/winged"
@@ -78,10 +81,11 @@
         android:id="@+id/mascaraNo"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/no" />
+        android:text="No" />
 
     <Button
         android:id="@+id/nextEyeMakeup"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:background="@drawable/rectangle"
@@ -91,5 +95,6 @@
         android:textColor="@android:color/background_light"
         android:textColorLink="@color/colorPrimaryDark"
         android:visibility="visible" />
+
 </android.support.v7.widget.FitWindowsLinearLayout>
 
