@@ -1,5 +1,7 @@
 package com.example.cathychang.athenahacks;
 
+import android.support.v7.app.AppCompatActivity;
+
 import java.util.ArrayList;
 
 //package com.example.cathychang.athenahacks;
@@ -7,7 +9,7 @@ import java.util.ArrayList;
  * Created by shriyanadgauda on 2/24/18.
  */
 
-public class Ultimate {
+public class Ultimate  extends AppCompatActivity {
 
     boolean foundationLiquid;
     boolean foundationPowder;
