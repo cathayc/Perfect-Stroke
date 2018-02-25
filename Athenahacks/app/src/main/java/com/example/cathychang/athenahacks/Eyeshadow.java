@@ -19,13 +19,7 @@ public class Eyeshadow extends Ultimate {
 
         btnvideo.setOnClickListener(new View.OnClickListener() {
 
-            public void onClick(View v) {
-
-<<<<<<< HEAD
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(bestVideo())));
-=======
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=uKR1_Npz87Q")));
->>>>>>> parent of 5d24a3c... update video ultimate
+            public void onClick(View v) {startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(bestVideo())));
                 Log.i("Video", "Video Playing....");
 
             }
