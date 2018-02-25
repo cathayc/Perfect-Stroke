@@ -21,7 +21,7 @@ public class Eyeshadow extends Ultimate {
 
             public void onClick(View v) {
 
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(bestVideo())));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=uKR1_Npz87Q")));
                 Log.i("Video", "Video Playing....");
 
             }

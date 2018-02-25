@@ -47,34 +47,34 @@ public class Ultimate extends AppCompatActivity {
 
     public Ultimate()
     {
-        this.foundationLiquid = false;
-        this.foundationPowder = false;
-        this.foundationNone = false;
+        foundationLiquid = false;
+        foundationPowder = false;
+        foundationNone = false;
 
-        this.primerFace = false;
-        this.primerEyes = false;
-        this.primerNone = false;
+        primerFace = false;
+        primerEyes = false;
+        primerNone = false;
 
-        this.contourYes = false;
-        this.contourNo = false;
+        contourYes = false;
+        contourNo = false;
 
-        this.blushYes = false;
-        this.blushNo = false;
+        blushYes = false;
+        blushNo = false;
 
-        this.eyelinerDaily = false;
-        this.eyelinerCat = false;
-        this.eyelinerNightOut = false;
-        this.eyelinerNone = false;
+        eyelinerDaily = false;
+        eyelinerCat = false;
+        eyelinerNightOut = false;
+        eyelinerNone = false;
 
-        this.mascaraYes = false;
-        this.mascaraNo = false;
+        mascaraYes = false;
+        mascaraNo = false;
 
-        this.eyebrowsArc = false;
-        this.eyebrowsGel = false;
-        this.eyebrowsPencil = false;
-        this.eyebrowsNone = false;
+        eyebrowsArc = false;
+        eyebrowsGel = false;
+        eyebrowsPencil = false;
+        eyebrowsNone = false;
 
-        this.shadowBlack = false;
+        shadowBlack = false;
         shadowPurple = false;
         shadowBlue = false;
         shadowGold = false;
@@ -132,27 +132,27 @@ public class Ultimate extends AppCompatActivity {
     public String bestVideo()
     {
         boolean[] ultimateStats = new boolean [21];
-        ultimateStats[0] = this.foundationPowder;
-        ultimateStats[1] = this.foundationLiquid;
-        ultimateStats[2] = this.foundationNone;
-        ultimateStats[3] = this.primerFace;
-        ultimateStats[4] = this.primerEyes;
-        ultimateStats[5] = this.primerNone;
-        ultimateStats[6] = this.contourYes;
-        ultimateStats[7] = this.contourNo;
-        ultimateStats[8] = this.blushYes;
-        ultimateStats[9] = this.blushNo;
-        ultimateStats[10] = this.eyelinerDaily;
-        ultimateStats[11] = this.eyelinerCat;
-        ultimateStats[12] = this.eyelinerNightOut;
-        ultimateStats[13] = this.eyelinerNone;
+        ultimateStats[0] = foundationPowder;
+        ultimateStats[1] = foundationLiquid;
+        ultimateStats[2] = foundationNone;
+        ultimateStats[3] = primerFace;
+        ultimateStats[4] = primerEyes;
+        ultimateStats[5] = primerNone;
+        ultimateStats[6] = contourYes;
+        ultimateStats[7] = contourNo;
+        ultimateStats[8] = blushYes;
+        ultimateStats[9] = blushNo;
+        ultimateStats[10] = eyelinerDaily;
+        ultimateStats[11] = eyelinerCat;
+        ultimateStats[12] = eyelinerNightOut;
+        ultimateStats[13] = eyelinerNone;
         ultimateStats[14] = mascaraYes;
-        ultimateStats[15] = this.mascaraNo;
-        ultimateStats[16] = this.eyebrowsArc;
-        ultimateStats[17] = this.eyebrowsGel;
-        ultimateStats[18] = this.eyebrowsPencil;
-        ultimateStats[19] = this.eyebrowsNone;
-        ultimateStats[20] = this.shadowBlack;
+        ultimateStats[15] = mascaraNo;
+        ultimateStats[16] = eyebrowsArc;
+        ultimateStats[17] = eyebrowsGel;
+        ultimateStats[18] = eyebrowsPencil;
+        ultimateStats[19] = eyebrowsNone;
+        ultimateStats[20] = shadowBlack;
 
         int maxCompare = 0;
         int index = 0;
