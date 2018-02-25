@@ -23,7 +23,7 @@ public class Ultimate extends AppCompatActivity {
     boolean blushNo;
 
     boolean eyelinerDaily;
-    boolean eyelinerWing;
+    boolean eyelinerCat;
     boolean eyelinerNightOut;
     boolean eyelinerNone;
 
@@ -35,7 +35,7 @@ public class Ultimate extends AppCompatActivity {
     boolean eyebrowsPencil;
     boolean eyebrowsNone;
 
-    private Video [] videos;
+    Video [] videos;
 
     public Ultimate()
     {
@@ -54,7 +54,7 @@ public class Ultimate extends AppCompatActivity {
         blushNo = false;
 
         eyelinerDaily = false;
-        eyelinerWing = false;
+        eyelinerCat = false;
         eyelinerNightOut = false;
         eyelinerNone = false;
 
@@ -83,7 +83,6 @@ public class Ultimate extends AppCompatActivity {
                 false, true, false, true, false, true, false,
                 false, false, true, false, false, false,
                 true, false, "https://www.youtube.com/watch?v=I_h_ssTeLPw");
-
 
         videos[2] = new Video(false, false, false, false, false,
                 false, true, false, true, false, false, true,

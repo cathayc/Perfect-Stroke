@@ -47,9 +47,9 @@
         android:text="@string/red" />
 
     <CheckBox
+        android:id="@+id/White"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/White"
         android:text="@string/white" />
 
     <CheckBox
@@ -58,5 +58,4 @@
         android:id="@+id/Yellow"
         android:text="@string/yellow" />
 
-</android.support.v7.widget.FitWindowsLinearLayout>
 
