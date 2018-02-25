@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Foundation" />
         <activity android:name=".Primer" />
-        <activity android:name=".Contour"></activity>
+        <activity android:name=".Contour" />
+        <activity android:name=".EyeMakeup"></activity>
     </application>
 
 </manifest>

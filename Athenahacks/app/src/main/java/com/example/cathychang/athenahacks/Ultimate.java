@@ -16,8 +16,8 @@ public class Ultimate extends AppCompatActivity {
     boolean primerEyes;
     boolean primerNone;
 
-    boolean countourYes;
-    boolean countourNo;
+    boolean contourYes;
+    boolean contourNo;
 
     boolean blushYes;
     boolean blushNo;
@@ -45,8 +45,8 @@ public class Ultimate extends AppCompatActivity {
         primerEyes = false;
         primerNone = false;
 
-        countourYes = false;
-        countourNo = false;
+        contourYes = false;
+        contourNo = false;
 
         blushYes = false;
         blushNo = false;

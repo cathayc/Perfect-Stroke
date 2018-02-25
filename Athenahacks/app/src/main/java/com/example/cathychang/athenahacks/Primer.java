@@ -8,19 +8,17 @@ import android.widget.Button;
 import android.widget.CheckBox;
 
 
-public class Primer extends Ultimate {
+public class Primer extends AppCompatActivity {
 
-    public Primer()
-    {
-        super() ;
-    }
-
+    boolean primerFace;
+    boolean primerEyes;
+    boolean primerNone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_primer);
-        Button primer = (Button)findViewById(R.id.nextPrimer);
+        Button primer = findViewById(R.id.nextPrimer);
 
         primer.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -49,6 +47,6 @@ public class Primer extends Ultimate {
                     primerNone=true;
                 }
 
-        };
+        }
     }
 }

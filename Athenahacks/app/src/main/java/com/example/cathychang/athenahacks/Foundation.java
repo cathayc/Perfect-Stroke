@@ -9,16 +9,12 @@ import android.widget.CheckBox;
 
 public class Foundation extends Ultimate {
 
-    public Foundation()
-    {
-        super() ;
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_foundation);
 
-        Button primer = (Button)findViewById(R.id.nextPrimer);
+        Button primer = (Button)findViewById(R.id.nextFoundation);
 
         primer.setOnClickListener(new View.OnClickListener(){
             @Override

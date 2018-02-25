@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.cathychang.athenahacks.Contour">
 
-    <EditText
+    <TextView
         android:id="@+id/introContour"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,13 +18,13 @@
         tools:layout_editor_absoluteY="6dp" />
 
     <CheckBox
-        android:id="@+id/yes"
+        android:id="@+id/contourYes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Yes" />
 
     <CheckBox
-        android:id="@+id/no"
+        android:id="@+id/contourNo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="No" />
@@ -38,14 +38,21 @@
         android:text="Do you have blush?" />
 
     <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/blushYes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="Yes" />
 
     <CheckBox
+        android:id="@+id/blushNo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:text="No" />
+
+    <Button
+        android:id="@+id/nextContour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
 
 </android.support.v7.widget.FitWindowsLinearLayout>

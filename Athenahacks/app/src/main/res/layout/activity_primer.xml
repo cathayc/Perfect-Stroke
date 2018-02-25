@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.cathychang.athenahacks.Primer">
 
-    <EditText
+    <TextView
         android:id="@+id/introPrimer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
         android:text="None" />
 
     <Button
-        android:id="@+id/nextContour"
+        android:id="@+id/nextPrimer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next" />
