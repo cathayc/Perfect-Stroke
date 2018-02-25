@@ -1,56 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-=======
-=======
->>>>>>> parent of c8659bb... Eyliner
-=======
->>>>>>> parent of c8659bb... Eyliner
-=======
->>>>>>> parent of c8659bb... Eyliner
-=======
->>>>>>> parent of c8659bb... Eyliner
-=======
->>>>>>> parent of c8659bb... Eyliner
-=======
->>>>>>> parent of c8659bb... Eyliner
-=======
->>>>>>> parent of c8659bb... Eyliner
-=======
->>>>>>> parent of c8659bb... Eyliner
-=======
->>>>>>> parent of c8659bb... Eyliner
-=======
->>>>>>> parent of c8659bb... Eyliner
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
->>>>>>> parent of c8659bb... Eyliner
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context="com.example.cathychang.athenahacks.EyeMakeup">
+    tools:context="com.example.cathychang.athenahacks.eye_makeup">
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
     <TextView
         android:id="@+id/introEyeliner"
@@ -111,36 +67,3 @@
 
 </android.support.v7.widget.FitWindowsLinearLayout>
 
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
