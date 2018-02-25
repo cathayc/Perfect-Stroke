@@ -6,12 +6,19 @@
     android:layout_height="match_parent"
     tools:context="com.example.cathychang.athenahacks.MainActivity">
 
+    <ImageView
+        android:id="@+id/my_image_view"
+        android:src="@drawable/strokebeauty"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
     <Button
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Are you ready to begin?"
         tools:layout_editor_absoluteX="24dp"
+<<<<<<< HEAD
         tools:layout_editor_absoluteY="78dp" />
 
     <ImageView
@@ -19,4 +26,7 @@
         android:src="@drawable/strokebeauty"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"/>
+=======
+        tools:layout_editor_absoluteY="78dp"/>
+>>>>>>> 1164c52c7c8c12b44a73c4c366e018827dedfae2
 </android.support.constraint.ConstraintLayout>

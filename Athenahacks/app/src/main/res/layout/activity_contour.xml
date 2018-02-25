@@ -15,7 +15,8 @@
         android:inputType="textPersonName"
         android:text="Do you have contour?"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="6dp" />
+        tools:layout_editor_absoluteY="6dp"
+        />
 
     <CheckBox
         android:id="@+id/contourYes"
@@ -54,5 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next" />
+
+
 
 </android.support.v7.widget.FitWindowsLinearLayout>
