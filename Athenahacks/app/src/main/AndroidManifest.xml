@@ -19,9 +19,10 @@
         <activity android:name=".Foundation" />
         <activity android:name=".Primer" />
         <activity android:name=".Contour" />
-        <activity android:name=".EyeMakeup" />
-        <activity android:name=".Eyeshadow" />
-        <activity android:name=".activity_video"></activity>
+
+        <activity android:name=".EyeMakeup"></activity>
+
+        <activity android:name=".Eyeshadow"></activity>
     </application>
 
 </manifest>
