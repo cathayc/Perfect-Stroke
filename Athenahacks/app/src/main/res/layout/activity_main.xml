@@ -21,6 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal"
         android:text="Lets go!"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@color/colorPrimaryDark"
         tools:layout_editor_absoluteX="24dp"
         tools:layout_editor_absoluteY="78dp" />
 

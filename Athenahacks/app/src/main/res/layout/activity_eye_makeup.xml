@@ -15,7 +15,6 @@
         android:backgroundTint="@color/colorPrimaryDark"
         android:backgroundTintMode="screen"
         android:drawableBottom="@android:color/holo_purple"
-        android:drawableEnd="@android:color/holo_purple"
         android:padding="5dp"
         android:text="How do you want your eyeliner styled?"
         android:textAlignment="center"
@@ -83,9 +82,10 @@
 
     <Button
         android:id="@+id/nextEyeMakeup"
-        style="@style/Widget.AppCompat.Button.Colored"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:background="@color/colorPrimaryDark"
         android:duplicateParentState="false"
         android:foregroundGravity="top"
@@ -94,7 +94,4 @@
         android:visibility="visible" />
 
 </android.support.v7.widget.FitWindowsLinearLayout>
-<<<<<<< HEAD
 
-=======
->>>>>>> cd650a8a9f1d16abf354583527c863d1c66b59b1

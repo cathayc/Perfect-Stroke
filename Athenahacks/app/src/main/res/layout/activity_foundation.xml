@@ -12,19 +12,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:textAlignment="center"
         android:inputType="textPersonName"
         android:text="What type of foundation do you have?"
+        android:textStyle="italic"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+ />
 
     <CheckBox
         android:id="@+id/powder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Powder"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="84dp" />
+ />
 
     <CheckBox
         android:id="@+id/liquid"
@@ -42,5 +42,7 @@
         android:id="@+id/nextFoundation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@color/colorPrimaryDark"
         android:text="Next" />
 </android.support.v7.widget.FitWindowsLinearLayout>
