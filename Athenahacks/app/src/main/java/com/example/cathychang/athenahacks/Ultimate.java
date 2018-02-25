@@ -35,7 +35,7 @@ public class Ultimate extends AppCompatActivity {
     boolean eyebrowsPencil;
     boolean eyebrowsNone;
 
-    Video [] videos; 
+    Video [] videos;
 
     public Ultimate()
     {
