@@ -35,6 +35,17 @@ public class Ultimate extends AppCompatActivity {
     boolean eyebrowsPencil;
     boolean eyebrowsNone;
 
+    public Ultimate()
+    {
+        foundationLiquid = false;
+        foundationPowder = false;
+        foundationNone = false;
+
+        primerFace = false;
+        primerEyes = false;
+        primerNone = false; 
+    }
+
 
 
 }

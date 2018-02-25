@@ -9,10 +9,10 @@ import android.widget.CheckBox;
 
 public class Foundation extends Ultimate {
 
-    boolean foundationLiqud = false;
-    boolean foundationPowder = false;
-    boolean foundationNone = false;
-
+    public Foundation()
+    {
+        super() ;
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +34,7 @@ public class Foundation extends Ultimate {
         switch (view.getId()){
             case R.id.liquid:
                 if (checked)
-                    foundationLiqud=true;
+                    foundationLiquid=true;
                 break;
             case R.id.powder:
                 if (checked)
@@ -43,12 +43,12 @@ public class Foundation extends Ultimate {
             case R.id.none:
                 if (checked){
                     foundationPowder=false;
-                    foundationLiqud=false;
+                    foundationLiquid=false;
                     foundationNone=true;
                 }
             
         }
-        System.out.print(foundationLiqud);
+        System.out.print(foundationLiquid);
     }
 
 
