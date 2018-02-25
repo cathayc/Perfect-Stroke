@@ -35,6 +35,8 @@ public class Ultimate extends AppCompatActivity {
     boolean eyebrowsPencil;
     boolean eyebrowsNone;
 
+    Video [] videos; 
+
     public Ultimate()
     {
         foundationLiquid = false;
@@ -65,8 +67,6 @@ public class Ultimate extends AppCompatActivity {
         eyebrowsNone = false;
     }
 
-<<<<<<< HEAD
-=======
     public void makeVideos() {
         videos = new Video[10];
         videos[0] = new Video(true, false, false, true, false,
@@ -83,8 +83,6 @@ public class Ultimate extends AppCompatActivity {
                 false, true, false, true, false, true, false,
                 false, false, true, false, false, false,
                 true, false, "https://www.youtube.com/watch?v=I_h_ssTeLPw");
-
->>>>>>> 1164c52c7c8c12b44a73c4c366e018827dedfae2
 
         videos[2] = new Video(false, false, false, false, false,
                 false, true, false, true, false, false, true,
