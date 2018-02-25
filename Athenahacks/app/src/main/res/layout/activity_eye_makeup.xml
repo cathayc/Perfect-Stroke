@@ -3,8 +3,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 =======
+=======
+>>>>>>> parent of c8659bb... Eyliner
 =======
 >>>>>>> parent of c8659bb... Eyliner
 =======
@@ -19,6 +22,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.cathychang.athenahacks.EyeMakeup">
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +87,9 @@
 
 </android.support.v7.widget.FitWindowsLinearLayout>
 
+=======
+</android.support.constraint.ConstraintLayout>
+>>>>>>> parent of c8659bb... Eyliner
 =======
 </android.support.constraint.ConstraintLayout>
 >>>>>>> parent of c8659bb... Eyliner
