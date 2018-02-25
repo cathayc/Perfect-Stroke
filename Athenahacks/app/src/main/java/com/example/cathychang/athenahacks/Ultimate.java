@@ -43,8 +43,29 @@ public class Ultimate extends AppCompatActivity {
 
         primerFace = false;
         primerEyes = false;
-        primerNone = false; 
+        primerNone = false;
+
+        countourYes = false;
+        countourNo = false;
+
+        blushYes = false;
+        blushNo = false;
+
+        eyelinerDaily = false;
+        eyelinerCat = false;
+        eyelinerNightOut = false;
+        eyelinerNone = false;
+
+        mascaraYes = false;
+        mascaraNo = false;
+
+        eyebrowsArc = false;
+        eyebrowsGel = false;
+        eyebrowsPencil = false;
+        eyebrowsNone = false;
     }
+
+    
 
 
 
