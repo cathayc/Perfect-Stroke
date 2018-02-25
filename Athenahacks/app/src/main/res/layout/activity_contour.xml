@@ -19,6 +19,7 @@
         android:text="Do you have contour?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
+        android:textSize="20sp"
         android:textStyle="normal|bold"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="6dp" />
@@ -47,6 +48,7 @@
         android:text="Do you have blush?"
         android:textAlignment="center"
         android:textColor="@android:color/black"
+        android:textSize="20sp"
         android:textStyle="normal|bold" />
 
     <CheckBox

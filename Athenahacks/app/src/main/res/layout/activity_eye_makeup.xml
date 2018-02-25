@@ -24,6 +24,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColorLink="@android:color/black"
         android:textIsSelectable="false"
+        android:textSize="18sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="29dp" />
@@ -67,6 +68,7 @@
         android:textColor="@android:color/background_dark"
         android:textColorLink="@color/colorPrimaryDark"
         android:textIsSelectable="false"
+        android:textSize="18sp"
         android:textStyle="normal|bold"
         android:typeface="normal"
         android:verticalScrollbarPosition="left"
