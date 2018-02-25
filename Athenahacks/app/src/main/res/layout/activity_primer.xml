@@ -36,13 +36,10 @@
     <Button
         android:id="@+id/nextPrimer"
         android:layout_width="match_parent"
-<<<<<<< HEAD
         android:layout_height="50dp"
         android:background="@drawable/rectangle"
         android:text="Next"
         android:textColor="@android:color/background_light" />
-=======
         android:layout_height="wrap_content"
         android:text="Next" />
->>>>>>> parent of 896bf5d... update features
 </android.support.v7.widget.FitWindowsLinearLayout>
