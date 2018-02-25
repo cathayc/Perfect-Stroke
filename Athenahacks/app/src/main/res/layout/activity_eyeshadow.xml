@@ -1,9 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.cathychang.athenahacks.Eyeshadow">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/introShadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/what_color_eye_shadow_do_you_own"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <CheckBox
+        android:id="@+id/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/black" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/purple"
+        android:text="@string/purple" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Blue"
+        android:text="@string/blue" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Gold"
+        android:text="@string/gold" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Red"
+        android:text="@string/red" />
+
+    <CheckBox
+        android:id="@+id/White"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/white" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Yellow"
+        android:text="@string/yellow" />
+
+
+</android.support.v7.widget.FitWindowsLinearLayout>

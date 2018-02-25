@@ -35,11 +35,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <activity android:name=".EyeMakeup"></activity>
 =======
+=======
+>>>>>>> 4a3a483a57ccdad97e46bc52253752bc24e437fb
         <activity android:name=".EyeMakeup" />
-        <activity android:name=".EyeShadowBrows" />
         <activity android:name=".Eyeshadow"></activity>
+<<<<<<< HEAD
 >>>>>>> 1164c52c7c8c12b44a73c4c366e018827dedfae2
 =======
         <activity android:name=".EyeMakeup"></activity>
@@ -86,6 +89,8 @@
 =======
         <activity android:name=".EyeMakeup"></activity>
 >>>>>>> parent of c8659bb... Eyliner
+=======
+>>>>>>> 4a3a483a57ccdad97e46bc52253752bc24e437fb
     </application>
 
 </manifest>
