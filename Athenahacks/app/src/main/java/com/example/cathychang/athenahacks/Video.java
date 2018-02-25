@@ -21,7 +21,7 @@ public class Video {
     boolean blushNo;
 
     boolean eyelinerDaily;
-    boolean eyelinerCat;
+    boolean eyelinerWing;
     boolean eyelinerNightOut;
     boolean eyelinerNone;
 
@@ -37,7 +37,7 @@ public class Video {
 
     public Video(boolean fLiquid, boolean fPowder, boolean fNone, boolean pFace,
                  boolean pEyes, boolean pNone, boolean cYes, boolean cNo, boolean bYes, boolean bNo,
-                 boolean eDaily, boolean eCat, boolean eNight, boolean eNone, boolean mYes,
+                 boolean eDaily, boolean eWing, boolean eNight, boolean eNone, boolean mYes,
                  boolean mNo, boolean ebArc, boolean ebGel, boolean ebPencil, boolean ebNone,
                  String link)
     {
@@ -56,7 +56,7 @@ public class Video {
         blushNo = bNo;
 
         eyelinerDaily = eDaily;
-        eyelinerCat = eCat;
+        eyelinerWing = eWing;
         eyelinerNightOut = eNight;
         eyelinerNone = ebNone;
 
