@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <activity android:name=".EyeMakeup"></activity>
 =======
         <activity android:name=".EyeMakeup" />
@@ -35,6 +36,9 @@
 =======
         <activity android:name=".EyeMakeup"></activity>
 >>>>>>> parent of 458103e... Merge branch 'master' of https://github.com/cathayc/athena
+=======
+        <activity android:name=".EyeMakeup"></activity>
+>>>>>>> parent of c8659bb... Eyliner
 =======
         <activity android:name=".EyeMakeup"></activity>
 >>>>>>> parent of c8659bb... Eyliner
