@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 
 
-public class Primer extends AppCompatActivity {
+public class Primer extends Ultimate {
 
     boolean primerFace;
     boolean primerEyes;
