@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
-public class Foundation extends AppCompatActivity {
+public class Foundation extends Ultimate {
 
     boolean foundationLiqud = false;
     boolean foundationPowder = false;
