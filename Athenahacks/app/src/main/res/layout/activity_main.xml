@@ -9,14 +9,14 @@
 
     <ImageView
         android:id="@+id/my_image_view"
-        android:layout_width="395dp"
+        android:src="@drawable/strokebeauty"
         android:layout_height="wrap_content"
-        android:src="@drawable/strokebeauty" />
+        android:layout_width="wrap_content"/>
 
     <Button
         android:id="@+id/start"
         android:layout_width="wrap_content"
-        android:layout_height="320dp"
+        android:layout_height="wrap_content"
         android:text="Are you ready to begin?"
         tools:layout_editor_absoluteX="24dp"
 
