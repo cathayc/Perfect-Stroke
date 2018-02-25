@@ -11,8 +11,9 @@
     <TextView
         android:id="@+id/introEyeliner"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:text="How do you want your eyeliner styled?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="29dp" />
 
