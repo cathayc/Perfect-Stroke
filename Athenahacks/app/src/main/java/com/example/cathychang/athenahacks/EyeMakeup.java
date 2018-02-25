@@ -19,7 +19,7 @@ public class EyeMakeup extends Ultimate {
         eyeShadow.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent= new Intent(EyeMakeup.this, Eyeshadow.class);
+                Intent intent= new Intent(EyeMakeup.this, BringMeVideo.class);
                 startActivity(intent);
             }
         });

@@ -8,16 +8,15 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class Eyeshadow extends Ultimate {
+public class BringMeVideo extends Ultimate {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_eyeshadow);
+        setContentView(R.layout.activity_bring_me_video);
+        Button vid = (Button)findViewById(R.id.VideoBut);
 
-        Button btnvideo = (Button)findViewById(R.id.btnVideo);
-
-        btnvideo.setOnClickListener(new View.OnClickListener() {
+        vid.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(bestVideo())));
