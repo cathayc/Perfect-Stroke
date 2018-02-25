@@ -1,4 +1,4 @@
-package com.example.cathychang.athenahacks;
+package com.example.cathychang.athenahacks;//package com.example.cathychang.athenahacks;
 
 /**
  * Created by shriyanadgauda on 2/24/18.
@@ -8,13 +8,13 @@ public class Video {
 
     private boolean[] videoStats;
 
-    String url;
+    private String url;
 
     public Video(boolean[] inputStats, String link)
     {
-        boolean[] videoStats = new boolean [inputStats.length] ;
+        videoStats = new boolean [inputStats.length] ;
         for(int i = 0 ; i < inputStats.length; i++){
-            this.videoStats[i] = inputStats[i] ;
+            videoStats[i] = inputStats[i] ;
         }
         url = link;
     }
@@ -28,6 +28,11 @@ public class Video {
     public String getUrl()
     {
         return this.url;
+    }
+
+    public String toString()
+    {
+        return "things";
     }
 
 }
