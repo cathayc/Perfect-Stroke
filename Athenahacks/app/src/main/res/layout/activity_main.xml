@@ -6,11 +6,17 @@
     android:layout_height="match_parent"
     tools:context="com.example.cathychang.athenahacks.MainActivity">
 
+    <ImageView
+        android:id="@+id/my_image_view"
+        android:src="@drawable/strokebeauty"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
     <Button
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Are you ready to begin?"
         tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="78dp" />
+        tools:layout_editor_absoluteY="78dp"/>
 </android.support.constraint.ConstraintLayout>

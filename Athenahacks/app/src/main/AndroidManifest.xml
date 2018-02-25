@@ -20,7 +20,8 @@
         <activity android:name=".Primer" />
         <activity android:name=".Contour" />
         <activity android:name=".EyeMakeup" />
-        <activity android:name=".EyeShadowBrows"></activity>
+        <activity android:name=".EyeShadowBrows" />
+        <activity android:name=".Eyeshadow"></activity>
     </application>
 
 </manifest>
