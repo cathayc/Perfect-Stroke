@@ -59,3 +59,4 @@
         android:text="@string/yellow" />
 
 
+</android.support.v7.widget.FitWindowsLinearLayout>

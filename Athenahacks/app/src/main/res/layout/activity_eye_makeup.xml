@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.cathychang.athenahacks.EyeMakeup">
-
-<<<<<<< HEAD
 
     <TextView
         android:id="@+id/introEyeliner"
@@ -66,6 +64,3 @@
         android:text="Next" />
 
 </android.support.v7.widget.FitWindowsLinearLayout>
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> parent of c8659bb... Eyliner
