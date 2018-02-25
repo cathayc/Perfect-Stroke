@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.cathychang.athenahacks.MainActivity">
 
+
     <ImageView
         android:id="@+id/my_image_view"
         android:src="@drawable/strokebeauty"
