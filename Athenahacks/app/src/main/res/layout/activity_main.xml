@@ -20,7 +20,7 @@
         android:id="@+id/start"
         style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
         android:layout_width="200dp"
-        android:layout_height="140dp"
+        android:layout_height="100dp"
         android:layout_gravity="center_vertical|center_horizontal"
         android:autoSizeMaxTextSize="@android:dimen/thumbnail_height"
         android:background="@drawable/rectangle"

@@ -88,6 +88,7 @@
         android:duplicateParentState="false"
         android:foregroundGravity="top"
         android:text="Next"
+        android:textColor="@android:color/background_light"
         android:textColorLink="@color/colorPrimaryDark"
         android:visibility="visible" />
 </android.support.v7.widget.FitWindowsLinearLayout>
