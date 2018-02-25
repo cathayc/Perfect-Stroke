@@ -48,7 +48,6 @@ public class Foundation extends Ultimate {
                 }
             
         }
-        System.out.print(foundationLiquid);
     }
 
 

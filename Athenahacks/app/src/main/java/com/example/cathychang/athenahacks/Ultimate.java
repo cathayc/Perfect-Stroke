@@ -65,7 +65,7 @@ public class Ultimate extends AppCompatActivity {
         eyebrowsNone = false;
     }
 
-    
+
 
 
 
