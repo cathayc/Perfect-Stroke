@@ -142,15 +142,6 @@ public class Ultimate  extends AppCompatActivity {
         videos.add( vid5)  ;
 
 
-        boolean[] temp6 = {false, false, false, false, false,
-                false, false, false, false, false, false, false,
-                false, false, false, false, false, false,
-                false, false, false, false, false, false, false, false, false};
-
-        Video vid6 = new Video(temp6, "https://www.youtube.com/watch?v=ZoGe4m_W9_Y");
-        videos.add( vid6)  ;
-
-
     }
     /*Finds the video in videos that matches with the current unltimate the most and then returns
         the url for that video*/
